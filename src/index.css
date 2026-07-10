@@ -181,6 +181,12 @@ a {
   flex-wrap: wrap;
 }
 
+.resume-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .resume-period {
   color: var(--muted);
   font-size: 0.95rem;

@@ -25,9 +25,14 @@ export function ResumePage() {
               </li>
             ))}
           </ul>
-          <button type="button" className="button print-hidden" onClick={() => window.print()}>
-            Print this resume
-          </button>
+          <p className="resume-actions print-hidden">
+            <a className="button button-primary" href="/Mike-Blom-Resume.pdf" download>
+              Download PDF
+            </a>
+            <button type="button" className="button" onClick={() => window.print()}>
+              Print this resume
+            </button>
+          </p>
         </header>
 
         <section aria-labelledby="summary-heading">

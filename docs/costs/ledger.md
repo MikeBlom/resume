@@ -8,6 +8,7 @@ Append-only record of what this project costs to build and run. Methodology in
 | 2026-07-10 | Product discovery, planning interview, full development plan     | Claude Code (Fable 5) | Subscription session (~1 extended session) | ~$3–6 amortized |
 | 2026-07-10 | M0: repo scaffold, docs skeleton, content model, resume page, CI | Claude Code (Fable 5) | Subscription session (~1 extended session) | ~$3–6 amortized |
 | 2026-07-10 | M0: real resume content integration, questionnaire curation      | Claude Code (Fable 5) | Subscription session (~0.5 session)        | ~$2–3 amortized |
+| 2026-07-10 | M0: sanitized PDF generation pipeline (Playwright print-to-PDF)  | Claude Code (Fable 5) | Subscription session (~0.25 session)       | ~$1–2 amortized |
 
 ## Infrastructure (recurring)
 
