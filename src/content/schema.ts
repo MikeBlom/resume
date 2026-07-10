@@ -19,6 +19,7 @@ const BasicsSchema = z.object({
   tagline: z.string().min(1),
   location: z.string().optional(),
   summary: z.string().min(1),
+  philosophy: z.string().optional(),
   links: z.array(LinkSchema),
   placeholder: z.boolean().default(false),
 })

@@ -35,6 +35,13 @@ export function ResumePage() {
           <p>{resume.basics.summary}</p>
         </section>
 
+        {resume.basics.philosophy && (
+          <section aria-labelledby="philosophy-heading">
+            <h2 id="philosophy-heading">Leadership philosophy</h2>
+            <p>{resume.basics.philosophy}</p>
+          </section>
+        )}
+
         <section aria-labelledby="experience-heading">
           <h2 id="experience-heading">Experience</h2>
           {resume.experience.map((job) => (
@@ -60,7 +67,7 @@ export function ResumePage() {
               {resume.military.role} · {resume.military.branch}
             </h3>
             <p className="resume-period">
-              {resume.military.period} — deployments: {resume.military.deployments.join(', ')}
+              {resume.military.period} · {resume.military.deployments.join(', ')}
             </p>
             <p>{resume.military.summary}</p>
             <ul>
@@ -80,17 +87,19 @@ export function ResumePage() {
           ))}
         </section>
 
-        <section aria-labelledby="education-heading">
-          <h2 id="education-heading">Education</h2>
-          {resume.education.map((entry) => (
-            <article key={entry.id} className="resume-entry">
-              <h3>{entry.credential}</h3>
-              <p className="resume-period">
-                {entry.institution} · {entry.period}
-              </p>
-            </article>
-          ))}
-        </section>
+        {resume.education.length > 0 && (
+          <section aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            {resume.education.map((entry) => (
+              <article key={entry.id} className="resume-entry">
+                <h3>{entry.credential}</h3>
+                <p className="resume-period">
+                  {entry.institution} · {entry.period}
+                </p>
+              </article>
+            ))}
+          </section>
+        )}
       </main>
     </div>
   )
