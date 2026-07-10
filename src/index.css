@@ -208,6 +208,276 @@ a {
   color: var(--navy);
 }
 
+/* Game shell */
+
+.game-shell {
+  position: fixed;
+  inset: 0;
+  background: var(--navy-deep);
+}
+
+.game-canvas,
+.game-canvas canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.game-canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-loading {
+  color: var(--cream);
+  font-family: 'Courier New', monospace;
+}
+
+.game-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.game-topbar > * {
+  pointer-events: auto;
+}
+
+.game-title {
+  color: var(--cream);
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  text-shadow: 1px 1px 0 var(--navy-deep);
+}
+
+.game-topbar-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button-small {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.9rem;
+  background: var(--cream);
+  border-color: var(--cream);
+  color: var(--navy);
+}
+
+.near-hint {
+  position: absolute;
+  bottom: 5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--navy);
+  color: var(--cream);
+  border: 2px solid var(--accent);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  max-width: min(90vw, 30rem);
+  text-align: center;
+}
+
+.minigame-leave {
+  position: absolute;
+  top: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--cream);
+}
+
+/* Overlays: content panel + cloud layer */
+
+.overlay-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 38, 63, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.content-panel,
+.cloud-layer {
+  background: var(--cream);
+  color: var(--ink);
+  border: 3px solid var(--navy);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  max-width: 34rem;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.content-panel h2 {
+  margin-top: 0;
+  color: var(--navy);
+}
+
+.panel-period {
+  color: var(--muted);
+  margin-top: -0.5rem;
+}
+
+.panel-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.cloud-layer {
+  max-width: 52rem;
+  border-color: #8ab6d6;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.35);
+}
+
+.cloud-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cloud-header h2 {
+  margin: 0;
+  color: var(--navy);
+}
+
+.cloud-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .cloud-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cloud-columns h3 {
+  color: var(--navy);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 0.2rem;
+}
+
+.cloud-settings {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cloud-controls-help {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.world-index {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.world-index button {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--navy);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--navy);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.world-index button:hover {
+  background: var(--navy);
+  color: var(--cream);
+}
+
+/* Touch controls: only on coarse-pointer devices */
+
+.touch-controls {
+  display: none;
+}
+
+@media (pointer: coarse) {
+  .touch-controls {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    right: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+  }
+}
+
+.touch-pad {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.touch-button {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 3px solid var(--cream);
+  background: rgba(29, 53, 87, 0.75);
+  color: var(--cream);
+  font-size: 1.5rem;
+  font-weight: 700;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.touch-interact {
+  background: rgba(224, 122, 95, 0.85);
+}
+
+/* Story mode */
+
+.story-intro {
+  background: #fdeee7;
+  border-left: 4px solid var(--accent);
+  padding: 0.75rem 1rem;
+}
+
+.story-stop {
+  margin-bottom: 1.5rem;
+}
+
+.story-stop h3 {
+  margin-bottom: 0.15rem;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--rust);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Print: clean single-column document, chrome hidden */
 
 @media print {
