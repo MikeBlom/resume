@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
+# Mike Blom — Interactive Resume & AI-Directed Development Case Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository is two things at once:
 
-Currently, two official plugins are available:
+1. **An interactive resume** — an original retro pixel-art side-scrolling experience that walks
+   visitors through my life and career: growing up in the Netherlands, serving in the US Army
+   infantry, twelve years growing from self-taught software engineer into engineering leadership,
+   and the unwritten chapter ahead. A traditional, printable resume is always one click away —
+   the game is optional, the information never is.
+2. **A public case study in AI-directed software development** — every stage of this project
+   (discovery, requirements, architecture, implementation, reviews, testing, deployment, costs)
+   is directed by me and executed with AI assistance, and the full process is documented here so
+   others can reproduce it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Status
 
-## React Compiler
+🚧 **Milestone 0** — foundation, transparency skeleton, and the traditional resume page.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## The process, documented
 
-## Expanding the Oxlint configuration
+| What | Where |
+|---|---|
+| Product vision & requirements | [`docs/requirements/`](docs/requirements/) |
+| Architecture decision records | [`docs/decisions/`](docs/decisions/) |
+| AI prompt & session logs (curated, redacted) | [`docs/prompts/`](docs/prompts/) |
+| Code / security / accessibility / performance reviews | [`docs/reviews/`](docs/reviews/) |
+| Test plans and results | [`docs/testing/`](docs/testing/) |
+| Design & visual-language guidelines | [`docs/design/`](docs/design/) |
+| Development workflow & how to reproduce this process | [`docs/process/`](docs/process/) |
+| Cost ledger (AI + infrastructure) | [`docs/costs/`](docs/costs/) |
+| Retrospectives | [`docs/retrospective/`](docs/retrospective/) |
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Development
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```sh
+npm install
+npm run dev        # local dev server
+npm run lint       # oxlint
+npm run typecheck  # tsc
+npm run test       # vitest
+npm run build      # production build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## License
+
+Code is licensed under [MIT](LICENSE). Resume content, personal story content, and original
+artwork in `content/` and `public/assets/` are **not** licensed for reuse — all rights reserved.
+This project is inspired by the feel of NES-era platformers but contains no Nintendo assets,
+characters, music, or level designs; see
+[`docs/design/visual-language.md`](docs/design/visual-language.md) for the originality guidelines.
