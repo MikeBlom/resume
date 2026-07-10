@@ -1,0 +1,114 @@
+{
+  "basics": {
+    "name": "Mike Blom",
+    "tagline": "Software engineering leader — self-taught engineer, US Army infantry veteran, twelve years building teams and products in education technology.",
+    "summary": "I grew up in the Netherlands, served in the United States Army infantry with deployments to Iraq and Afghanistan, taught myself to write software in 2014, and spent the next twelve years in education technology growing from engineer into engineering leadership. I lead teams through ambiguity and change, and I build software the way this site was built: with discipline, transparency, and AI as a force multiplier.",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/MikeBlom" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ],
+    "placeholder": true
+  },
+  "chapters": [
+    {
+      "id": "netherlands",
+      "title": "Youth in the Netherlands",
+      "period": "Childhood – teens",
+      "summary": "Growing up Dutch: a paper route and other odd jobs taught responsibility, independence, and the habit of showing up every day.",
+      "themes": ["Responsibility", "Independence", "Work ethic", "Consistency"],
+      "placeholder": true
+    },
+    {
+      "id": "army",
+      "title": "US Army Infantry",
+      "period": "Dates pending",
+      "summary": "Moved to the United States and served in the US Army infantry, deploying to Iraq and Afghanistan. Learned leadership, accountability, and how to perform under pressure.",
+      "themes": ["Leadership", "Accountability", "Teamwork", "Discipline", "Service"],
+      "placeholder": true
+    },
+    {
+      "id": "edtech",
+      "title": "Software Engineering & EdTech Leadership",
+      "period": "2014 – present",
+      "summary": "Self-taught software engineer who grew into engineering leadership over twelve years in education technology: building teams, setting technical strategy, and using AI to raise the bar for how software gets built.",
+      "themes": [
+        "Self-directed learning",
+        "Engineering leadership",
+        "Technical strategy",
+        "Mentorship",
+        "AI-assisted engineering"
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "future",
+      "title": "The Unwritten Future",
+      "period": "Next",
+      "summary": "The next chapter isn't written yet. Engineering leadership, AI-focused product development, building companies — let's talk.",
+      "themes": ["Leadership", "AI", "Product strategy", "Entrepreneurship"],
+      "placeholder": true
+    }
+  ],
+  "experience": [
+    {
+      "id": "edtech-leadership",
+      "chapterId": "edtech",
+      "employer": "Employer pending questionnaire",
+      "title": "Engineering leadership roles",
+      "period": "2014 – present",
+      "summary": "Twelve years in education technology, progressing from self-taught software engineer to engineering leadership. Detailed roles, employers, teams, and metrics will be filled in from the content questionnaire.",
+      "highlights": [
+        "Progressed from individual contributor to engineering leadership",
+        "Led teams through ambiguity, growth, and organizational change",
+        "Details pending — see docs/requirements/questionnaire.md"
+      ],
+      "placeholder": true
+    }
+  ],
+  "military": {
+    "branch": "United States Army",
+    "role": "Infantry",
+    "period": "Dates pending",
+    "summary": "Served in the US Army infantry with deployments to Iraq and Afghanistan. Public details are limited to what has been explicitly approved for publication.",
+    "deployments": ["Iraq", "Afghanistan"],
+    "lessons": [
+      "Leadership and accountability",
+      "Clear communication under pressure",
+      "Teamwork and discipline",
+      "Service and personal growth"
+    ],
+    "placeholder": true
+  },
+  "education": [
+    {
+      "id": "self-taught",
+      "institution": "Self-directed",
+      "credential": "Self-taught software engineer (2014)",
+      "period": "2014",
+      "placeholder": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "Leadership",
+      "items": [
+        "Engineering management",
+        "Team development",
+        "Technical strategy",
+        "Cross-functional collaboration",
+        "Mentorship"
+      ],
+      "placeholder": true
+    },
+    {
+      "name": "Engineering",
+      "items": [
+        "Software architecture",
+        "Product development",
+        "AI-assisted development",
+        "Delivery and operations"
+      ],
+      "placeholder": true
+    }
+  ]
+}
