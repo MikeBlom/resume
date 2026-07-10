@@ -1,6 +1,6 @@
 # Visual Language & Originality Guidelines
 
-This project is inspired by the *feeling* of NES-era platformers. It must never read as a
+This project is inspired by the _feeling_ of NES-era platformers. It must never read as a
 re-skin of any Nintendo property. Copyright protects specific sprites, music, and level designs;
 **trade dress** can protect a combined look. These rules keep the design original — and are
 themselves part of the public case study.

@@ -18,17 +18,17 @@ This repository is two things at once:
 
 ## The process, documented
 
-| What | Where |
-|---|---|
-| Product vision & requirements | [`docs/requirements/`](docs/requirements/) |
-| Architecture decision records | [`docs/decisions/`](docs/decisions/) |
-| AI prompt & session logs (curated, redacted) | [`docs/prompts/`](docs/prompts/) |
-| Code / security / accessibility / performance reviews | [`docs/reviews/`](docs/reviews/) |
-| Test plans and results | [`docs/testing/`](docs/testing/) |
-| Design & visual-language guidelines | [`docs/design/`](docs/design/) |
-| Development workflow & how to reproduce this process | [`docs/process/`](docs/process/) |
-| Cost ledger (AI + infrastructure) | [`docs/costs/`](docs/costs/) |
-| Retrospectives | [`docs/retrospective/`](docs/retrospective/) |
+| What                                                  | Where                                        |
+| ----------------------------------------------------- | -------------------------------------------- |
+| Product vision & requirements                         | [`docs/requirements/`](docs/requirements/)   |
+| Architecture decision records                         | [`docs/decisions/`](docs/decisions/)         |
+| AI prompt & session logs (curated, redacted)          | [`docs/prompts/`](docs/prompts/)             |
+| Code / security / accessibility / performance reviews | [`docs/reviews/`](docs/reviews/)             |
+| Test plans and results                                | [`docs/testing/`](docs/testing/)             |
+| Design & visual-language guidelines                   | [`docs/design/`](docs/design/)               |
+| Development workflow & how to reproduce this process  | [`docs/process/`](docs/process/)             |
+| Cost ledger (AI + infrastructure)                     | [`docs/costs/`](docs/costs/)                 |
+| Retrospectives                                        | [`docs/retrospective/`](docs/retrospective/) |
 
 ## Development
 

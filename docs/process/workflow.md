@@ -17,7 +17,7 @@ How this project is built — and how to reproduce the process.
    must pass schema validation.
 3. **Verify** — `npm run lint && npm run typecheck && npm run test && npm run build` locally
    and in CI; Playwright e2e and accessibility scans as they land (M1+).
-4. **Review gates** — at each milestone, *fresh-context* AI sessions (no memory of writing the
+4. **Review gates** — at each milestone, _fresh-context_ AI sessions (no memory of writing the
    code) perform code, security, accessibility, and performance reviews; findings and
    resolutions are committed to `docs/reviews/`. Separation of duties within a single AI system
    is part of what this project demonstrates.

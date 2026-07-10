@@ -5,12 +5,12 @@
 1. **The resume experience.** An original retro pixel-art side-scroller. A character representing
    Mike — visibly aging across the journey — walks left to right through four life chapters:
 
-   | Chapter | Period | Themes |
-   |---|---|---|
-   | 1. Netherlands | Childhood & teens; paper route | Responsibility, independence, work ethic |
-   | 2. US Army infantry | Immigration; deployments to Iraq & Afghanistan | Leadership, accountability, performing under pressure |
-   | 3. Software & edtech | 2014 → present; self-taught engineer → engineering leadership | Growth, technical strategy, team development, AI-era leadership |
-   | 4. The unwritten future | Next | Open, forward-looking; professional call to action |
+   | Chapter                 | Period                                                        | Themes                                                          |
+   | ----------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
+   | 1. Netherlands          | Childhood & teens; paper route                                | Responsibility, independence, work ethic                        |
+   | 2. US Army infantry     | Immigration; deployments to Iraq & Afghanistan                | Leadership, accountability, performing under pressure           |
+   | 3. Software & edtech    | 2014 → present; self-taught engineer → engineering leadership | Growth, technical strategy, team development, AI-era leadership |
+   | 4. The unwritten future | Next                                                          | Open, forward-looking; professional call to action              |
 
    Optional discoverable mini-games, original chapter-transition set pieces, bidirectional
    movement, and a persistent cloud/sky layer that opens a traditional resume and navigation.
