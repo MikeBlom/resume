@@ -63,6 +63,14 @@ const EducationSchema = z.object({
   placeholder: z.boolean().default(false),
 })
 
+const StorySchema = z.object({
+  id: z.string().min(1),
+  chapterId: z.string().min(1),
+  title: z.string().min(1),
+  body: z.string().min(1),
+  placeholder: z.boolean().default(false),
+})
+
 const SkillGroupSchema = z.object({
   name: z.string().min(1),
   items: z.array(z.string().min(1)).min(1),
@@ -76,11 +84,13 @@ export const ResumeSchema = z.object({
   military: MilitaryServiceSchema,
   education: z.array(EducationSchema),
   skills: z.array(SkillGroupSchema),
+  stories: z.array(StorySchema),
 })
 
 export type Resume = z.infer<typeof ResumeSchema>
 export type Job = z.infer<typeof JobSchema>
 export type Chapter = z.infer<typeof ChapterSchema>
+export type Story = z.infer<typeof StorySchema>
 
 /** Every entry that carries unconfirmed details, for launch gating and dev banners. */
 export function placeholderEntries(resume: Resume): string[] {
@@ -90,6 +100,7 @@ export function placeholderEntries(resume: Resume): string[] {
   for (const j of resume.experience) if (j.placeholder) flagged.push(`job:${j.id}`)
   if (resume.military.placeholder) flagged.push('military')
   for (const e of resume.education) if (e.placeholder) flagged.push(`education:${e.id}`)
+  for (const s of resume.stories) if (s.placeholder) flagged.push(`story:${s.id}`)
   for (const s of resume.skills) if (s.placeholder) flagged.push(`skills:${s.name}`)
   return flagged
 }
