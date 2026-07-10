@@ -1,36 +1,37 @@
 {
   "basics": {
     "name": "Mike Blom",
-    "tagline": "Software engineering leader — self-taught engineer, US Army infantry veteran, twelve years building teams and products in education technology.",
-    "summary": "I grew up in the Netherlands, served in the United States Army infantry with deployments to Iraq and Afghanistan, taught myself to write software in 2014, and spent the next twelve years in education technology growing from engineer into engineering leadership. I lead teams through ambiguity and change, and I build software the way this site was built: with discipline, transparency, and AI as a force multiplier.",
+    "tagline": "Director of Engineering at Instructure — a leader delivering high-confidence roadmaps for multi-team, multi-year platform initiatives.",
+    "summary": "Born a US citizen in the Netherlands, I grew up working every odd job I could find, then moved to the United States alone after high school. I spent over a decade serving with the US Army and Department of State in combat zones around the world, taught myself to write software in 2014, and have spent the years since in education technology — from self-taught engineer at MasteryConnect to Director of Engineering at Instructure, the makers of Canvas. Known for turning ambiguity into clear plans, shipping reliably at scale, and fostering a culture of ownership, collaboration, and continuous improvement.",
+    "philosophy": "I lead talented and passionate engineering teams who build and maintain innovative, scalable web applications for online education. My military and government service built foundational skills in communication, de-escalation, reliability, leadership, and ownership — and I apply them daily: overseeing engineering processes, standards, and best practices; ensuring the quality, performance, and security of our products; and mentoring and coaching my team members while fostering a culture of collaboration and innovation. I take pride in delivering intelligent, optimized backends behind smooth, fast frontends. My mission is to empower educators and learners with the tools they need to succeed in the digital age.",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/MikeBlom" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mike-blom-9a451192/" },
+      { "label": "GitHub", "url": "https://github.com/MikeBlom" }
     ],
-    "placeholder": true
+    "placeholder": false
   },
   "chapters": [
     {
       "id": "netherlands",
       "title": "Youth in the Netherlands",
-      "period": "Childhood – teens",
-      "summary": "Growing up Dutch: a paper route and other odd jobs taught responsibility, independence, and the habit of showing up every day.",
+      "period": "Childhood – high school",
+      "summary": "Born a US citizen in the Netherlands. A paper route, stocking grocery shelves, making orthopedic shoes, cleaning homes — every little job taught responsibility, independence, and the habit of showing up.",
       "themes": ["Responsibility", "Independence", "Work ethic", "Consistency"],
-      "placeholder": true
+      "placeholder": false
     },
     {
       "id": "army",
-      "title": "US Army Infantry",
-      "period": "Dates pending",
-      "summary": "Moved to the United States and served in the US Army infantry, deploying to Iraq and Afghanistan. Learned leadership, accountability, and how to perform under pressure.",
+      "title": "US Army & Department of State",
+      "period": "2003 – 2014",
+      "summary": "After high school, moved to the United States alone to start a new life. More than a decade of military and government service in combat zones around the world: leadership, communication, de-escalation, and calm execution in high-risk environments.",
       "themes": ["Leadership", "Accountability", "Teamwork", "Discipline", "Service"],
-      "placeholder": true
+      "placeholder": false
     },
     {
       "id": "edtech",
       "title": "Software Engineering & EdTech Leadership",
       "period": "2014 – present",
-      "summary": "Self-taught software engineer who grew into engineering leadership over twelve years in education technology: building teams, setting technical strategy, and using AI to raise the bar for how software gets built.",
+      "summary": "Taught myself to write software in 2014 and joined MasteryConnect, growing from engineer to Team Lead through consistent delivery. Continued through acquisition into Instructure, where I now lead engineering teams as Director of Engineering.",
       "themes": [
         "Self-directed learning",
         "Engineering leadership",
@@ -38,77 +39,88 @@
         "Mentorship",
         "AI-assisted engineering"
       ],
-      "placeholder": true
+      "placeholder": false
     },
     {
       "id": "future",
       "title": "The Unwritten Future",
       "period": "Next",
-      "summary": "The next chapter isn't written yet. Engineering leadership, AI-focused product development, building companies — let's talk.",
-      "themes": ["Leadership", "AI", "Product strategy", "Entrepreneurship"],
-      "placeholder": true
+      "summary": "The next chapter isn't written yet. By now you know who I am, what I've done, and how I lead — let's talk about what comes next.",
+      "themes": ["Leadership", "AI", "Product strategy"],
+      "placeholder": false
     }
   ],
   "experience": [
     {
-      "id": "edtech-leadership",
+      "id": "instructure",
       "chapterId": "edtech",
-      "employer": "Employer pending questionnaire",
-      "title": "Engineering leadership roles",
-      "period": "2014 – present",
-      "summary": "Twelve years in education technology, progressing from self-taught software engineer to engineering leadership. Detailed roles, employers, teams, and metrics will be filled in from the content questionnaire.",
+      "employer": "Instructure (makers of Canvas)",
+      "title": "Director of Engineering",
+      "period": "2019 – present",
+      "summary": "Leading distributed international engineering teams building scalable web applications for online education.",
       "highlights": [
-        "Progressed from individual contributor to engineering leadership",
-        "Led teams through ambiguity, growth, and organizational change",
-        "Details pending — see docs/requirements/questionnaire.md"
+        "Led assessment platform unification, aligning Product, Design, and Engineering on one roadmap",
+        "Scaled distributed international teams, increasing ownership, autonomy, and predictable execution",
+        "Cut projected engineering effort ~70% using high-confidence planning and explicit trade-offs"
       ],
-      "placeholder": true
+      "placeholder": false
+    },
+    {
+      "id": "masteryconnect",
+      "chapterId": "edtech",
+      "employer": "MasteryConnect",
+      "title": "Engineering Team Lead",
+      "period": "2014 – 2019",
+      "summary": "Self-taught engineer who earned a seat through delivery, then kept delivering.",
+      "highlights": [
+        "Highest-volume contributor across 100+ engineers, shipping core production capabilities",
+        "Fast-tracked to Senior Engineer and Team Lead through consistent delivery",
+        "Scaled architecture and features supporting growth through acquisition"
+      ],
+      "placeholder": false
     }
   ],
   "military": {
-    "branch": "United States Army",
-    "role": "Infantry",
-    "period": "Dates pending",
-    "summary": "Served in the US Army infantry with deployments to Iraq and Afghanistan. Public details are limited to what has been explicitly approved for publication.",
-    "deployments": ["Iraq", "Afghanistan"],
+    "branch": "US Army & US Department of State",
+    "role": "Military and diplomatic service",
+    "period": "2003 – 2014",
+    "summary": "More than ten years in combat zones around the world. A trusted leader in high-risk environments requiring discretion, judgment, and calm execution — safeguarding people, assets, and reputations through communication and de-escalation.",
+    "deployments": ["Combat zones worldwide, 10+ years"],
     "lessons": [
-      "Leadership and accountability",
-      "Clear communication under pressure",
-      "Teamwork and discipline",
-      "Service and personal growth"
+      "Leadership and ownership",
+      "Communication and de-escalation",
+      "Reliability under pressure",
+      "Discretion and judgment"
     ],
-    "placeholder": true
+    "placeholder": false
   },
-  "education": [
-    {
-      "id": "self-taught",
-      "institution": "Self-directed",
-      "credential": "Self-taught software engineer (2014)",
-      "period": "2014",
-      "placeholder": true
-    }
-  ],
+  "education": [],
   "skills": [
     {
       "name": "Leadership",
       "items": [
-        "Engineering management",
-        "Team development",
-        "Technical strategy",
-        "Cross-functional collaboration",
-        "Mentorship"
+        "Organizational delivery & execution",
+        "Technical strategy & architecture",
+        "Stakeholder management",
+        "Team development & mentorship"
       ],
-      "placeholder": true
+      "placeholder": false
     },
     {
       "name": "Engineering",
       "items": [
-        "Software architecture",
-        "Product development",
-        "AI-assisted development",
-        "Delivery and operations"
+        "Scalable modern applications",
+        "Data & API platform design",
+        "Cloud & infrastructure (AWS, Terraform, CI/CD)",
+        "Agentic accelerators & AI features",
+        "Ruby on Rails, JavaScript/TypeScript, Node, Nest, Go, React, Angular"
       ],
-      "placeholder": true
+      "placeholder": false
+    },
+    {
+      "name": "Languages",
+      "items": ["English (native)", "Dutch (native)", "German (conversational)"],
+      "placeholder": false
     }
   ]
 }
