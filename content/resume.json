@@ -95,6 +95,43 @@
     "placeholder": false
   },
   "education": [],
+  "stories": [
+    {
+      "id": "paper-route",
+      "chapterId": "netherlands",
+      "title": "The Paper Route",
+      "body": "My first real job: delivering newspapers through the Dutch streets — rain, wind, or shine, the papers went out. Reliability, timing, and the habit of showing up every single day started here. A playable Paper Route mini-game is coming to this doorway in a future build.",
+      "placeholder": false
+    },
+    {
+      "id": "odd-jobs",
+      "chapterId": "netherlands",
+      "title": "Every Odd Job I Could Find",
+      "body": "Stocking grocery shelves. Making orthopedic shoes. Cleaning homes for the elderly. None of it glamorous — all of it teaching the same lesson: work is work, do it well, and people will trust you with more.",
+      "placeholder": false
+    },
+    {
+      "id": "leaving-home",
+      "chapterId": "army",
+      "title": "2003 — Leaving for America",
+      "body": "Born a US citizen in the Netherlands, I graduated high school and wanted a change — so I left my family behind and crossed the ocean to start a new life. What followed was more than a decade of service with the US Army and Department of State in combat zones around the world. That chapter of this world is still under construction.",
+      "placeholder": false
+    },
+    {
+      "id": "self-taught",
+      "chapterId": "edtech",
+      "title": "2014 — Teaching Myself to Code",
+      "body": "After returning to civilian life, I taught myself to write software and earned a seat at MasteryConnect through sheer delivery — then kept delivering, all the way through acquisition into Instructure.",
+      "placeholder": false
+    },
+    {
+      "id": "future-cta",
+      "chapterId": "future",
+      "title": "The Unwritten Future",
+      "body": "You've walked through where I come from and what I've built. The next chapter isn't written yet — if you're building something worth building, let's talk. Find me on LinkedIn, browse the code behind this world on GitHub, or grab the traditional resume from the clouds above.",
+      "placeholder": false
+    }
+  ],
   "skills": [
     {
       "name": "Leadership",
