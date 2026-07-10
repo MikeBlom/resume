@@ -30,3 +30,18 @@ themselves part of the public case study.
 - **Typography:** open-licensed pixel font (license verified before inclusion).
 
 Every asset added to `public/assets/` gets a line in `ATTRIBUTION.md` with source and license.
+
+## Confirmed art direction (from Mike, 2026-07-10)
+
+- **Pixel era:** 16-bit detailed (not 8-bit chunky).
+- **Tone:** playful; text only — no narration.
+- **Character:** pixel-art interpretations of Mike from photo references only; the photos
+  themselves are never displayed. Costume progression: casual clothes (youth) → uniform
+  (service) → business casual (career).
+- **Family:** represented in the world — family drives Mike's decisions and belongs in his
+  story — but generally and respectfully: no names, ages, or identifying details.
+- **Palette note:** Mike's shorthand ask was a classic-platformer feel. Per the hard
+  prohibitions above, we deliver that feel with an original signature — bright, saturated,
+  cheerful, high-sky-contrast — without reproducing the protected SMB color combination.
+- **Company logos:** never used; employers are named in text only.
+- **Achievements / collectibles / Easter eggs:** skipped for now.

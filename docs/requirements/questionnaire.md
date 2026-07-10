@@ -1,44 +1,54 @@
-# Content & Asset Questionnaire
+# Content & Asset Questionnaire — Answered
 
-Answers feed the typed content model in `content/`. Anything marked **(public-comfort)** is
-published on the open internet — answer with that in mind, and see
-`docs/process/redaction-checklist.md`.
+Mike's answers, recorded 2026-07-10 and **curated per `docs/process/redaction-checklist.md`**
+(contact details and family specifics are generalized; the raw answers stay private).
 
-## 1. Immediate (blocks M0 content)
+## 1. Immediate (M0 content)
 
-- [ ] Current resume PDF and/or LinkedIn profile export
-- [ ] Contact method to display publicly (email? form? LinkedIn only?)
-- [ ] The domain name to deploy to
-- [ ] LinkedIn URL, GitHub URL, any other professional links
-- [ ] Should a resume PDF be downloadable from the site? Which version?
+- [x] **Resume source** — current resume PDF provided directly (kept out of the repo pending a
+      contact-info decision); LinkedIn: <https://www.linkedin.com/in/mike-blom-9a451192/>
+- [x] **Public contact method** — LinkedIn only for now; maybe a contact form later
+- [x] **Domain** — mikeblom.com (registered at Namecheap)
+- [x] **Links** — LinkedIn above; GitHub: <https://github.com/MikeBlom>
+- [x] **Downloadable PDF** — yes, desired; blocked on removing private contact details from the
+      PDF (it currently includes phone/email/city while the public contact stance is
+      LinkedIn-only)
 
-## 2. Career history (blocks M2)
+## 2. Career history
 
-- [ ] Job history: employers, titles, dates, promotions **(public-comfort: employer names OK?)**
-- [ ] Responsibilities, accomplishments, and metrics per role
-- [ ] Teams led: sizes, structures, org scope
-- [ ] Major projects, technologies, awards, certifications
-- [ ] Education
-- [ ] Leadership philosophy (a few paragraphs in your own words)
-- [ ] Target roles for the future chapter (what should this site attract?)
+- [x] **Job history** — per resume: Director of Engineering at Instructure (2019–present),
+      Engineering Team Lead at MasteryConnect (2014–2019), US Army & Department of State
+      (2003–2014). Paper route stays out of the resume — it's story color for the game world.
+- [x] **Details, teams, projects** — sourced from the resume document
+- [x] **Education** — deliberately not referenced on the site
+- [x] **Leadership philosophy** — provided in Mike's own words; rendered on `/resume`
+- [x] **Future-chapter target roles** — deliberately unstated: "the resume speaks for itself"
 
-## 3. Personal story (blocks chapter content)
+## 3. Personal story
 
-- [ ] Netherlands: where you grew up, era, paper-route specifics, other odd jobs
-- [ ] Year and circumstances of moving to the United States
-- [ ] Military service **(public-comfort: units? dates? locations? awards? deployments?)**
-- [ ] The self-taught-programmer story: what you used, how long, first job landed
-- [ ] Career milestones and turning points; mentors; failures you're willing to share
-- [ ] Volunteer/community leadership to include, if any
+- [x] **Netherlands** — many odd jobs: paper route, stocking grocery shelves, making orthopedic
+      shoes, cleaning homes for the elderly
+- [x] **Move to the US** — born a US citizen in the Netherlands; after high school, left family
+      behind to start a new life in the US
+- [x] **Military service** — keep it super high level: 10+ years in combat zones around the
+      world with the US Army and Department of State. No units, locations, or specifics.
+- [x] **Self-taught story / milestones / mentors** — sourced from the resume; more depth may be
+      gathered for chapter content in M2
+- [x] **Volunteer/community** — per resume
 
-## 4. Visual & tone (blocks M2 art direction)
+## 4. Visual & tone
 
-- [ ] Photos at different ages — as pixel-art reference only, or displayed on-site?
-- [ ] Clothing per life phase; military uniform references appropriate to use
-- [ ] Company logos: which, and do we have permission?
-- [ ] Pixel era preference: 8-bit chunky vs 16-bit detailed
-- [ ] Color palette preferences
-- [ ] Humor level (dry / playful / minimal) and overall emotional tone
-- [ ] Family represented in the world? yes/no
-- [ ] Achievements/collectibles? Easter eggs?
-- [ ] Narration or text-only?
+- [x] **Photos** — pixel-art reference only, never displayed
+- [x] **Costume progression** — casual clothes (youth) → uniform (service) → business casual
+      (career); uniform reference approved
+- [x] **Company logos** — do not use
+- [x] **Pixel era** — 16-bit detailed
+- [x] **Palette** — Mike asked for a classic-platformer feel; per the hard prohibitions in
+      `docs/design/visual-language.md` we interpret this as a bright, saturated, cheerful
+      retro palette with its own signature — not the protected SMB color combination
+- [x] **Tone** — playful
+- [x] **Family** — yes: family is central to who Mike is and drives his decisions. Married since
+      2006, four children. Represented in the world respectfully and generally (no names or
+      identifying details published).
+- [x] **Achievements / collectibles / Easter eggs** — skip for now
+- [x] **Narration** — text only
